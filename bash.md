@@ -1,7 +1,7 @@
 # Bash
 
 ## Shotcuts
-<kbd>Alt<kbd>
+<kbd>Alt</kbd>
 _Win - abre atividades
 _Alt+F2 - comando de 1 linha
 _Alt+Esc - trocar janelas na mesma workspace

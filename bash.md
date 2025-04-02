@@ -2,29 +2,48 @@
 
 ## Shotcuts
 <kbd>Alt</kbd>
-_Win - abre atividades
-_Alt+F2 - comando de 1 linha
-_Alt+Esc - trocar janelas na mesma workspace
-_Win+PageUP/Down - trocar entre workspaces
-_Shift+Win+PageUp/Down - mover janela para outra workspace
-_Win+A - lista de aplicações
-_Shift+Win+-> - mover janela para outro monitor
-_Win+V - notificações
-_Win+D - desktop
 
-CHECK SPECS
+<kbd>Win</kbd> - opens activities
+
+<kbd>Alt</kbd> + <kbd>F2</kbd> - one line command
+
+<kbd>Win</kbd> + <kbd>PgUp</kbd>/<kbd>PgDw</kbd> - switch to upper/lower workspace
+
+<kbd>Shift</kbd> + <kbd>Win</kbd> + <kbd>PgUp</kbd>/<kbd>PgDw</kbd> - send window to upper/lower workspace
+
+<kbd>Win</kbd> + <kbd>A</kbd> - applications
+
+<kbd>Win</kbd> + <kbd>V</kbd> - notifications
+
+<kbd>Win</kbd> + <kbd>D</kbd> - desktop
+
+
+## Machine info and check
+
+Displays information about all Peripheral Component Interconnect (PCI) **buses and devices connected to the system**:
+```bash
 $ lspci
-$ inxi -G [graphics]
+```
 
-## DIRETORIAS E PERMISSÕES
-_remover dir
-	$ rm -r dir
+**System control status**:
+```bash
+$ systemctl status
+```
 
-_system control status
-systemctl status
 
-_verificar utilizador
+## Directories
+
+**Remove** non-empty directory (recursively):
+```bash
+$ rm -r <dir>
+```
+
+## Permissions
+
+Check **user**:
+```bash
 $ whoami
+```
 
 _mover todos os ficheiros de uma dir
 	$ mv  -v ~/Downloads/* ~/Videos/
